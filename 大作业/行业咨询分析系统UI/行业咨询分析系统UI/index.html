@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>行业咨询分析系统</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">行业咨询分析系统</div>
+    <div class="user">
+      <span class="language-switch">Language</span> | 
+      <span class="welcome-text">欢迎你，用户</span>
+      <a href="login.html" class="logout-btn">注销</a>
+    </div>
+  </header>
+  <div class="container">
+    <aside>
+      <ul class="menu">
+        <li class="active"><a href="index.html">📊 首页</a></li>
+        <li><a href="data-center.html">📂 数据中心</a></li>
+        <li><a href="subscriptions.html">📋 我的订阅</a></li>
+        <li><a href="reports.html">📈 报告分析</a></li>
+        <li><a href="settings.html">🔧 设置</a></li>
+      </ul>
+    </aside>
+    <main>
+
+      <!-- 添加搜索栏 -->
+      <div class="search-section">
+        <h2>快速搜索</h2>
+        <div class="search-container">
+          <div class="search-bar">
+            <input type="text" placeholder="输入关键词搜索行业报告、数据或分析...">
+            <button class="search-btn">搜索</button>
+          </div>
+          <div class="quick-tags">
+            <span class="tag">人工智能</span>
+            <span class="tag">新能源</span>
+            <span class="tag">医疗健康</span>
+            <span class="tag">金融科技</span>
+            <span class="tag">电子商务</span>
+          </div>
+        </div>
+      </div>
+
+      <h1>数据概览</h1>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-title">本月新增数据</div>
+          <div class="card-value">12,430 条</div>
+        </div>
+        <div class="card">
+          <div class="card-title">行业总数</div>
+          <div class="card-value">27 个</div>
+        </div>
+        <div class="card">
+          <div class="card-title">生成报告</div>
+          <div class="card-value">85 份</div>
+        </div>
+        <div class="card">
+          <div class="card-title">系统在线人数</div>
+          <div class="card-value">143 人</div>
+        </div>
+      </div>
+
+      <!-- 添加咨询列表 -->
+      <div class="consult-section">
+        <div class="section-header">
+          <h2>最新行业咨询</h2>
+          <a href="data-center.html" class="view-more">查看更多 ></a>
+        </div>
+        <div class="consult-list">
+          <div class="consult-item">
+            <div class="consult-date">2023-09-01</div>
+            <div class="consult-content">
+              <h3>人工智能在医疗领域的应用前景分析</h3>
+              <p>本报告深入分析了AI技术在医疗诊断、药物研发和健康管理等领域的最新应用案例和未来发展趋势...</p>
+              <div class="consult-meta">
+                <span class="consult-category">医疗健康</span>
+                <span class="consult-views">阅读量: 2,345</span>
+              </div>
+            </div>
+          </div>
+          <div class="consult-item">
+            <div class="consult-date">2023-08-28</div>
+            <div class="consult-content">
+              <h3>新能源汽车市场竞争格局与技术路线分析</h3>
+              <p>随着全球电动化浪潮加速，本报告对比分析了主流车企的技术路线选择、市场策略和未来竞争优势...</p>
+              <div class="consult-meta">
+                <span class="consult-category">新能源</span>
+                <span class="consult-views">阅读量: 1,987</span>
+              </div>
+            </div>
+          </div>
+          <div class="consult-item">
+            <div class="consult-date">2023-08-25</div>
+            <div class="consult-content">
+              <h3>数字人民币试点扩大对金融科技行业的影响</h3>
+              <p>随着数字人民币试点范围持续扩大，本报告分析了其对支付行业格局、金融科技公司业务模式的影响...</p>
+              <div class="consult-meta">
+                <span class="consult-category">金融科技</span>
+                <span class="consult-views">阅读量: 1,756</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>设置 - 行业咨询分析系统</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">行业咨询分析系统</div>
+    <div class="user">Language | 欢迎你，用户</div>
+  </header>
+  <div class="container">
+    <aside>
+      <ul class="menu">
+        <li><a href="index.html">📊 首页</a></li>
+        <li><a href="data-center.html">📂 数据中心</a></li>
+        <li><a href="subscriptions.html">📋 我的订阅</a></li>
+        <li><a href="reports.html">📈 报告分析</a></li>
+        <li class="active"><a href="settings.html">🔧 设置</a></li>
+      </ul>
+    </aside>
+    <main>
+      <h1>系统设置</h1>
+      <div class="settings-section">
+        <h2>个人信息</h2>
+        <form>
+          <div class="form-group">
+            <label>用户名</label>
+            <input type="text" value="当前用户">
+          </div>
+          <div class="form-group">
+            <label>邮箱</label>
+            <input type="email" value="user@example.com">
+          </div>
+          <div class="form-group">
+            <label>密码</label>
+            <input type="password" value="********">
+          </div>
+          <button type="submit">保存修改</button>
+        </form>
+      </div>
+      <div class="settings-section">
+        <h2>系统设置</h2>
+        <div class="form-group">
+          <label>语言</label>
+          <select>
+            <option>简体中文</option>
+            <option>English</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>主题</label>
+          <select>
+            <option>默认主题</option>
+            <option>暗黑模式</option>
+            <option>高对比度</option>
+          </select>
+        </div>
+        <button>应用设置</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
